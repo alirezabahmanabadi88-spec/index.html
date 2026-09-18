@@ -1,0 +1,175 @@
+:root {
+    --favcoler: rgb(101 191 161)
+}
+
+body {
+    font-family: "Merriweather", serif;
+}
+
+.sec {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../image/header/banner-12.jpg);
+    background-size: cover;
+
+    >.radif {
+        &:nth-of-type(1) {
+
+            background-color: rgb(236, 229, 229);
+            height: 120px;
+
+            >* {
+                height: 100%;
+                /* border: 2px solid red; */
+            }
+
+            >div {
+                width: 30%;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+
+                >a {
+                    font-size: 50px;
+                    color: black;
+
+                }
+            }
+
+            >nav {
+                width: 70%;
+
+                >ul {
+                    display: flex;
+                    gap: 30px;
+                    /* border: 1px solid red; */
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 25px;
+
+                    >li {
+                        padding: 50px 0;
+
+                        &:hover {
+                            >a {
+                                color: rgb(101 191 161);
+                                transition: .4s;
+
+                            }
+                        }
+
+                        &:first-of-type {
+                            >a {
+
+                                color: rgb(101 191 161);
+
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        &:nth-of-type(2) {
+            justify-content: center;
+
+            >div {
+                width: 50%;
+                min-height: 500px;
+                /* border: 1px solid yellow; */
+                margin-top: 100px;
+                color: white;
+                text-align: center;
+
+                >h1 {
+                    font-size: 50px;
+                }
+
+                >p {
+                    padding: 40px 0;
+                    font-size: 20px;
+                }
+
+                >a {
+
+                    text-align: center;
+                    /* border: 1px solid red; */
+                    padding: 15px 10px;
+                    font-size: 30px;
+
+                    &:hover {
+                        &:first-of-type {
+                            background-color: rgb(0, 234, 255);
+                        }
+
+                        &:last-of-type {
+                            background-color: rgba(97, 85, 85, 0.403);
+                        }
+                    }
+
+                    &:first-of-type {
+                        background-color: rgb(101 191 161);
+                        margin-right: 10px;
+                    }
+
+                    &:last-of-type {
+                        background-color: black;
+                        margin-left: 10px;
+                    }
+                }
+
+
+
+            }
+        }
+
+    }
+}
+
+.sec2 {
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+
+    >h2 {
+        padding: 70px 200px;
+    }
+
+    >.radif {        
+        /* border: 1px solid black; */
+        width: 100%;
+        /* min-height: 200px; */
+        height: 450px;
+        justify-content: center;
+        gap: 20px;
+        >* {
+            width: 30%;  
+            height: 100%;        
+            transition: 1s;  
+            /* border: 1px solid black;  */
+                       
+        }
+        >.art {               
+                >img {
+                    width: 100%;
+                }
+                >a{        
+                    display: block;
+                    font-size: 20px;
+                    color: black;
+                    padding: 15px 5px;                   
+                }
+                >p{
+                    font-size: 22px;
+                }
+                >a{
+                    font-size: 20px;
+                    color: rgb(96, 232, 232);
+                }
+
+            }
+            
+        }
+    }
+    
